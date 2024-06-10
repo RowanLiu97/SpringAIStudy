@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-ai-study02
+
+  ai:
+    openai:
+
+      api-key:
+      base-url:
+      chat:
+        options:
+          # 如果不设置，默认是 gpt-3.5-turbo
+          model: gpt-3.5-turbo
